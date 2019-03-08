@@ -1,0 +1,70 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
+.title{
+  text-align: center;
+  padding-left: 1px;
+
+}
+h1{
+  color: white;
+  padding-bottom: 10px;
+  font-style: italic;
+
+}
+.container{
+  min-height: 10px;
+}
+.hero {
+      background-image: url('/assets/img/I.jpg') ;
+      background-size: cover;
+      height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.24);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.hero:body{
+  padding:20px;
+  background-size: cover;
+}
+
+/*=================================================================
+  About us section
+==================================================================*/
+.card{
+  border-top: 5px;
+   border-right: 2px solid #57cbcc;
+ border-bottom: 4px solid #57cbcc;
+  padding-top:30px;
+  padding-left: 20px;
+}
+.bold{
+  background-color: #CCCCCC;
+  margin-right: 10px;
+}
